@@ -1,0 +1,195 @@
+# ===========================================
+# MATRIMONY PROJECT - GITIGNORE
+# ===========================================
+
+# ===========================================
+# NODE.JS / REACT FRONTEND
+# ===========================================
+# Dependencies
+client/node_modules/
+client/npm-debug.log*
+client/yarn-debug.log*
+client/yarn-error.log*
+
+# Production builds
+client/build/
+client/dist/
+
+# Environment variables
+client/.env
+client/.env.local
+client/.env.development.local
+client/.env.test.local
+client/.env.production.local
+
+# IDE files
+client/.vscode/
+client/.idea/
+client/*.swp
+client/*.swo
+
+# OS generated files
+client/.DS_Store
+client/.DS_Store?
+client/._*
+client/.Spotlight-V100
+client/.Trashes
+client/ehthumbs.db
+client/Thumbs.db
+
+# ===========================================
+# JAVA / SPRING BOOT BACKEND
+# ===========================================
+# Maven
+server/Matrimony-Backend/target/
+server/Matrimony-Backend/.mvn/wrapper/maven-wrapper.jar
+server/Matrimony-Backend/mvnw
+server/Matrimony-Backend/mvnw.cmd
+
+# IDE files
+server/Matrimony-Backend/.idea/
+server/Matrimony-Backend/*.iml
+server/Matrimony-Backend/*.ipr
+server/Matrimony-Backend/*.iws
+
+# Eclipse
+server/Matrimony-Backend/.project
+server/Matrimony-Backend/.classpath
+server/Matrimony-Backend/.settings/
+
+# VS Code
+server/Matrimony-Backend/.vscode/
+
+# Logs
+server/Matrimony-Backend/logs/
+server/Matrimony-Backend/*.log
+
+# ===========================================
+# .NET / ASP.NET CORE BACKEND
+# ===========================================
+# Build results
+server/matrimony_subscription/**/bin/
+server/matrimony_subscription/**/obj/
+server/matrimony_subscription/**/out/
+
+# Visual Studio
+server/matrimony_subscription/.vs/
+server/matrimony_subscription/*.user
+server/matrimony_subscription/*.suo
+server/matrimony_subscription/*.userosscache
+server/matrimony_subscription/*.sln.docstates
+
+# Visual Studio Code
+server/matrimony_subscription/.vscode/
+
+# JetBrains Rider
+server/matrimony_subscription/.idea/
+server/matrimony_subscription/*.sln.iml
+
+# User-specific files
+server/matrimony_subscription/.vs/
+server/matrimony_subscription/.vscode/
+server/matrimony_subscription/.idea/
+
+# ===========================================
+# DATABASE & UPLOADS
+# ===========================================
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+
+# Upload directories (keep structure but ignore content)
+server/uploads/profile-pictures/*
+!server/uploads/profile-pictures/.gitkeep
+server/Matrimony-Backend/uploads/profile-pictures/*
+!server/Matrimony-Backend/uploads/profile-pictures/.gitkeep
+
+# ===========================================
+# GENERAL
+# ===========================================
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Logs
+*.log
+logs/
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage directory used by tools like istanbul
+coverage/
+
+# nyc test coverage
+.nyc_output
+
+# Dependency directories
+node_modules/
+jspm_packages/
+
+# Optional npm cache directory
+.npm
+
+# Optional REPL history
+.node_repl_history
+
+# Output of 'npm pack'
+*.tgz
+
+# Yarn Integrity file
+.yarn-integrity
+
+# dotenv environment variables file
+.env
+
+# ===========================================
+# PROJECT SPECIFIC
+# ===========================================
+# Keep important files but ignore content
+server/Sql-Tables/Complete_Schema.sql
+!server/Sql-Tables/Complete_Schema.sql
+
+# Ignore zip files
+*.zip
+
+# Ignore backup files
+*.bak
+*.backup
+
+# Ignore temporary files
+*.tmp
+*.temp
+
+# ===========================================
+# SECURITY
+# ===========================================
+# Never commit these
+*.key
+*.pem
+*.p12
+*.pfx
+secrets/
+config/secrets/
+
+# ===========================================
+# DOCUMENTATION (Optional - uncomment if you want to ignore)
+# ===========================================
+# README.md
+# *.md

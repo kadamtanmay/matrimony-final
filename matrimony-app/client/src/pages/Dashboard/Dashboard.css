@@ -1,0 +1,43 @@
+/* Simple Dashboard Styling */
+
+.simple-card {
+  transition: none;
+  box-shadow: none;
+  border: 1px solid #dee2e6 !important;
+}
+
+.simple-card:hover {
+  border-color: #adb5bd !important;
+  background-color: #f8f9fa;
+}
+
+.simple-card .card-body {
+  padding: 1.5rem;
+}
+
+.simple-card h6 {
+  font-weight: 500;
+  color: #495057;
+}
+
+/* Remove fancy effects from stats cards */
+.stats-card {
+  border: 1px solid #dee2e6;
+  box-shadow: none;
+}
+
+.stats-card:hover {
+  border-color: #adb5bd;
+  background-color: #f8f9fa;
+}
+
+/* Simple progress bar */
+.progress {
+  border: 1px solid #dee2e6;
+  background-color: #f8f9fa;
+}
+
+.progress-bar {
+  background-color: #28a745;
+  border-radius: 0;
+}

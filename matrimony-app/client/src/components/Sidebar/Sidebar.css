@@ -1,0 +1,87 @@
+.sidebar {
+    height: 100vh;
+    width: 100%;
+    background-color: #2c2c2c;
+    overflow-y: auto;
+    border-right: 1px solid #444;
+    padding: 1rem;
+  }
+  
+  .sidebar h3 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    padding: 20px;
+    margin: 0;
+    border-bottom: 1px solid #444;
+  }
+  
+  .sidebar ul {
+    padding-left: 0;
+  }
+  
+  .sidebar li {
+    list-style: none;
+  }
+  
+  .sidebar .nav-link {
+    font-size: 1rem;
+    font-weight: 400;
+    text-decoration: none;
+    padding: 12px 20px;
+    color: #ccc;
+    display: block;
+    border-bottom: 1px solid #444;
+  }
+  
+  .sidebar .nav-link.active {
+    background-color: #3a3a3a; 
+    color: #fff;
+  }
+  
+  .sidebar .nav-link:hover {
+    background-color: #3a3a3a;
+    color: #fff;
+  }
+  
+  
+  .sidebar .nav-link.text-danger {
+    font-weight: 600;
+  }
+  
+  body.dark-mode .sidebar {
+    background-color: #181818; 
+    color: #fff;
+  }
+  
+  body.dark-mode .sidebar .nav-link {
+    color: #bbb;
+  }
+  
+  body.dark-mode .sidebar .nav-link.active {
+    background-color: #3a3a3a;
+  }
+  
+  /* Unread message count badge styling */
+  .sidebar .badge {
+    font-size: 0.7rem;
+    font-weight: bold;
+    min-width: 18px;
+    height: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #2c2c2c;
+  }
+  
+  /* Position the badge properly */
+  .sidebar .nav-link.position-relative {
+    position: relative;
+  }
+  
+  .sidebar .badge.position-absolute {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    transform: translate(50%, -50%);
+  }
+  

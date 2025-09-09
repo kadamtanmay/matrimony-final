@@ -1,0 +1,29 @@
+/* Styles for the Messages component */
+.message-card {
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    border: none;
+    border-radius: 8px;
+  }
+  
+  .message-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card-title {
+    font-size: 1.25rem;
+    font-weight: 600;
+  }
+  
+  .card-text {
+    font-size: 0.9rem;
+  }
+  
+  .btn {
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  .btn:hover {
+    background-color: #0056b3;
+    transform: scale(1.02);
+  }

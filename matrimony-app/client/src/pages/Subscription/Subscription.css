@@ -1,0 +1,69 @@
+/* Add your custom styles here */
+
+.subscription-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    background-color: #f4f4f9;
+    padding: 20px;
+  }
+  
+  .subscription-card {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+  }
+  
+  .subscription-card h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .price {
+    font-size: 32px;
+    font-weight: bold;
+    color: #2a9d8f;
+    margin-bottom: 15px;
+  }
+  
+  .features-list {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 20px;
+  }
+  
+  .features-list li {
+    font-size: 16px;
+    margin-bottom: 8px;
+    color: #555;
+  }
+  
+  .subscribe-btn {
+    background-color: #2a9d8f;
+    color: white;
+    font-size: 18px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .subscribe-btn:hover {
+    background-color: #21867a;
+  }
+  
+  .subscribe-btn:disabled {
+    background-color: #aaa;
+    cursor: not-allowed;
+  }
+  
+  .subscribed {
+    background-color: #6c757d !important;
+  }
+  
